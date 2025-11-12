@@ -21,13 +21,13 @@ en: &DEFAULT_EN
     list:
       - title: "Chalk talks"
         desc: "Monthly lunch seminars that focus on research that 'went wrong'."
-        icon: fas fa-chalkboard-user #find more at https://fontawesome.com/icons
+        icon: fas fa-user #find more at https://fontawesome.com/icons
       - title: "Computational resources"
         desc: "Shared community resources for running common ML tools for proteins."
-        icon: fas fa-head-side-gear
+        icon: fas fa-gear
       - title: "Events"
         desc: "More events"
-        icon: fab fa-markdown
+        icon: fab fa-mug-saucer
 
   about:
     title: "About MAIP"
