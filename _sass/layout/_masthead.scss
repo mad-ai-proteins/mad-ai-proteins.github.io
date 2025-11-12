@@ -1,13 +1,12 @@
 // Styling for the masthead
 header.masthead {
-  position: relative;            // keep positioning predictable
   text-align: center;
-  color: $primary;
+  color: white;
   background-image: url("#{$header-image}");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: 0% center;   // left-center focus
-  background-size: 100% auto;           // default for desktop
+  background-position: left center;
+  background-size: cover;
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
@@ -27,32 +26,8 @@ header.masthead {
     }
   }
 }
-
-/* SMALL SCREENS: make width match viewport, reduce padding so image can scale */
-@media (max-width: 767.98px) {
-  header.masthead {
-    background-position: 30% center;  // slightly left on phones
-    background-size: 100% auto;       // force image width = viewport width, preserve aspect ratio
-    .intro-text {
-      padding-top: 80px;    // smaller paddings so header height isn't huge
-      padding-bottom: 60px;
-      .intro-lead-in {
-        font-size: 18px;
-        line-height: 20px;
-      }
-      .intro-heading {
-        font-size: 32px;
-        line-height: 36px;
-      }
-    }
-  }
-}
-
 @media (min-width: 768px) {
   header.masthead {
-    /* desktop behavior */
-    background-position: 35% center;
-    background-size: cover;
     .intro-text {
       padding-top: 300px;
       padding-bottom: 200px;
