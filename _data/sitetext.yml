@@ -13,8 +13,6 @@ en: &DEFAULT_EN
   header:
     text: "Madison AI for Proteins*"
     title: "*And RNA, ligands, genomes ..." 
-    button: Tell Me More
-    buttonlink: "#services"
 
   services:
     title: "Activities"
@@ -23,10 +21,10 @@ en: &DEFAULT_EN
     list:
       - title: "Chalk talks"
         desc: "Monthly lunch seminars that focus on research that 'went wrong'."
-        icon: fas chalkboard-user #find more at https://fontawesome.com/icons
+        icon: fas fa-chalkboard-user #find more at https://fontawesome.com/icons
       - title: "Computational resources"
         desc: "Shared community resources for running common ML tools for proteins."
-        icon: fas head-side-gear
+        icon: fas fa-head-side-gear
       - title: "Events"
         desc: "More events"
         icon: fab fa-markdown
