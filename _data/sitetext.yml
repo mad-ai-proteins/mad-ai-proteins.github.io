@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: MAIP: Madison AI for Proteins*
-    text: *And RNA, ligands, genomes ... 
+    title: "MAIP: Madison AI for Proteins*"
+    text: "*And RNA, ligands, genomes ..." 
     button: Tell Me More
     buttonlink: "#services"
 
