@@ -7,7 +7,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 35% center;   // left-center focus
-  background-size: cover;           // default for desktop
+  background-size: 100% auto;           // default for desktop
   .intro-text {
     padding-top: 150px;
     padding-bottom: 100px;
