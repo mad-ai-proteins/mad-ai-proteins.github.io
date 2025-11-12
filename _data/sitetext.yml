@@ -24,10 +24,10 @@ en: &DEFAULT_EN
         icon: fas fa-user #find more at https://fontawesome.com/icons
       - title: "Computational resources"
         desc: "Shared community resources for running common ML tools for proteins."
-        icon: fas fa-gear
+        icon: fas fa-laptop
       - title: "Events"
         desc: "More events"
-        icon: fab fa-mug-saucer
+        icon: fab fa-clone
 
   about:
     title: "About MAIP"
