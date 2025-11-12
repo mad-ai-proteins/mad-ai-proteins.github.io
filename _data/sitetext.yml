@@ -44,7 +44,7 @@ en: &DEFAULT_EN
         image: assets/img/team/1.jpg
         social:
           - url: https://waymentsteelelab.org/
-            icon: fab fa-globe
+            icon: fas fa-globe
           - url: https://x.com/hwaymentsteele
             icon: fab fa-twitter
 
@@ -53,7 +53,7 @@ en: &DEFAULT_EN
         image: assets/img/team/2.jpg
         social:
           - url: https://www.biostat.wisc.edu/~gitter/
-            icon: fab fa-globe
+            icon: fas fa-globe
           - url: https://x.com/anthonygitter
             icon: fab fa-twitter
             
