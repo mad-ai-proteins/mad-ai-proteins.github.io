@@ -32,9 +32,8 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   about:
-    title: "About us"
-    text: "our story"
-    body: "Molecular biology, structural biology, and more are being fundamentally altered by fast-moving research in deep learning. This community is to bring together researchers at UW-Madison working in this space."
+    title: "About MAIP"
+    body: "Madison AI for Proteins (MAIP) is a new initiative to bring together researchers at UW-Madison working in this space. Molecular biology, structural biology, and more are being fundamentally altered by fast-moving research in deep learning. We draw inspiration from the Maip dinosaur, a large raptorid that lived in South America."
     section: about
 
   clients:
