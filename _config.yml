@@ -17,9 +17,9 @@ url    : "https://mad-ai-proteins.github.io" # the base hostname & protocol for 
 baseurl: "" # the subpath of your site, e.g. /blog
 
 title      : MAIP
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
+email      : maip+owner@g-groups.wisc.edu #this is also the email contact forms will go to
+description: "Madison AI for Proteins"
+author     : Madison AI for Proteins
 #logo:      : MAIP
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
