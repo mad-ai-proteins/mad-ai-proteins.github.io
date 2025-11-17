@@ -30,7 +30,7 @@ en: &DEFAULT_EN
 
   about:
     title: "About MAIP"
-    body: "Madison AI for Proteins (MAIP) is a new initiative to bring together researchers at UW-Madison working in machine learning/AI for molecular biology, structural biology, and more. We draw inspiration from the Maip dinosaur, a large raptorid that lived in South America. For more information, please join our Google group at maip@g-groups.wisc.edu."
+    body: "Madison AI for Proteins (MAIP) is a new initiative to bring together researchers at UW-Madison working in machine learning/AI for molecular biology, structural biology, and more. We draw inspiration from the Maip dinosaur, a large raptorid that lived in South America. For more information and event notifications, please join our Google group by clicking [here](https://groups.google.com/a/g-groups.wisc.edu/g/maip/about) or emailing maip+subscribe@g-groups.wisc.edu."
     section: about
 
   team:
