@@ -56,6 +56,23 @@ en: &DEFAULT_EN
             icon: fas fa-globe
           - url: https://x.com/anthonygitter
             icon: fab fa-twitter
+
+  seminar_schedule:
+    title: "Seminar Schedule"
+    text: "Upcoming seminars and events"
+    section: seminar-schedule
+    seminars:
+      - date: "TBD"
+        speaker: "TBA"
+        title: "TBA"
+        location: "TBA"
+        time: "TBA"
+      # Add more seminars here as they are scheduled
+      # - date: "January 15, 2025"
+      #   speaker: "Dr. Jane Smith"
+      #   title: "Machine Learning for Protein Structure Prediction"
+      #   location: "Room 1234"
+      #   time: "12:00 PM"
             
   footer:
     legal: "Privacy Policy"

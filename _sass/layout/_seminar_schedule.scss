@@ -1,0 +1,93 @@
+// Styling for the seminar schedule section
+.seminar-schedule {
+  margin-top: 3rem;
+}
+
+.seminar-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: $gray-100;
+  border-left: 4px solid $primary;
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .seminar-date {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: $primary;
+    font-size: 1.1rem;
+
+    i {
+      margin-right: 0.5rem;
+    }
+  }
+
+  .seminar-content {
+    .seminar-title {
+      margin-bottom: 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: $gray-900;
+    }
+
+    .seminar-speaker {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.75rem;
+      color: $gray-700;
+      font-size: 1rem;
+
+      i {
+        margin-right: 0.5rem;
+        color: $gray-600;
+      }
+    }
+
+    .seminar-details {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      font-size: 0.9rem;
+      color: $gray-600;
+
+      .seminar-location,
+      .seminar-time {
+        display: flex;
+        align-items: center;
+
+        i {
+          margin-right: 0.5rem;
+          color: $gray-500;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .seminar-item {
+    flex-direction: row;
+    padding: 2rem;
+
+    .seminar-date {
+      min-width: 200px;
+      margin-bottom: 0;
+      margin-right: 2rem;
+      padding-right: 2rem;
+      border-right: 1px solid $gray-300;
+    }
+
+    .seminar-content {
+      flex: 1;
+    }
+  }
+}
+
