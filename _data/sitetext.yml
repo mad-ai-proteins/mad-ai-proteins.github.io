@@ -14,9 +14,9 @@ en: &DEFAULT_EN
     text: "Madison AI for Proteins*"
     title: "*And RNA, ligands, genomes, ..." 
 
-  services:
+  activities:
     title: "Activities"
-    section: services
+    section: activities
     list:
       - title: "Chalk talks"
         desc: "Monthly lunch seminars to share early-stage research."
