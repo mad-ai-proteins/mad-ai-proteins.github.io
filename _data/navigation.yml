@@ -13,10 +13,10 @@ en: &DEFAULT_EN
   nav:
     - title: "Activities"
       section: services
-    - title: "Seminar Schedule"
-      section: seminar-schedule
     - title: "About"
       section: about
+    - title: "Seminar Schedule"
+      section: seminar-schedule
     - title: "Organizers"
       section: team
 
