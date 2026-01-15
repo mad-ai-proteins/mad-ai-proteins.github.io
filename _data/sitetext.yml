@@ -67,6 +67,7 @@ en: &DEFAULT_EN
         title: "Where's the big data for protein dynamics?"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
+        rsvp_link: https://docs.google.com/forms/d/e/1FAIpQLScm106FxhRBLQINOTchriKyCZMxCB4XmSZkdGe5Fto8mdWRIg/viewform?usp=dialog
 
       - date: "March 2, 2026"
         speaker: "Anthony Gitter"
