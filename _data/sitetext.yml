@@ -30,7 +30,7 @@ en: &DEFAULT_EN
 
   about:
     title: "About MAIP"
-    body: "Madison AI for Proteins (MAIP) is a new initiative to bring together researchers at UW-Madison working in machine learning/AI for molecular biology, structural biology, and more. We draw inspiration from the Maip dinosaur, a large raptorid that lived in South America. For more information and event notifications, please join our Google group by clicking [here](https://groups.google.com/a/g-groups.wisc.edu/g/maip/about) or emailing maip+subscribe@g-groups.wisc.edu."
+    body: "Madison AI for Proteins (MAIP) is a new initiative to bring together researchers at UW-Madison working in machine learning/AI for molecular biology, structural biology, and more. We draw inspiration from the Maip dinosaur, a large raptorid that lived in South America. For more information and event notifications, please join our Google group by clicking [here](https://groups.google.com/a/g-groups.wisc.edu/g/maip/about) or emailing maip+subscribe@g-groups.wisc.edu.\n MAIP acknowledges support from the UW-Madison Data Science Institute’s [Rise AI Collaboration HQ](https://dsi.wisc.edu/rise-ai-hq/)."
     section: about
 
   team:
@@ -62,11 +62,30 @@ en: &DEFAULT_EN
     text: "Upcoming seminars and events"
     section: seminar-schedule
     seminars:
-      - date: "TBD"
+      - date: "February 9, 2026"
+        speaker: "Hannah Wayment-Steele"
+        title: "Where's the big data for protein dynamics?"
+        location: "Room 1109, McArdle Building"
+        time: "12-1 pm"
+
+      - date: "March 2, 2026"
+        speaker: "Anthony Gitter"
+        title: "TBA"
+        location: "Room 1109, McArdle Building"
+        time: "12-1 pm"
+
+      - date: "April 6, 2026"
         speaker: "TBA"
         title: "TBA"
-        location: "TBA"
-        time: "TBA"
+        location: "Room 1109, McArdle Building"
+        time: "12-1 pm"
+
+      - date: "May 4, 2026"
+        speaker: "TBA"
+        title: "TBA"
+        location: "Room 1109, McArdle Building"
+        time: "12-1 pm"
+        
       # Add more seminars here as they are scheduled
       # - date: "January 15, 2025"
       #   speaker: "Dr. Jane Smith"
