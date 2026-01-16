@@ -19,18 +19,17 @@
 
   .seminar-date {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     margin-bottom: 1rem;
     font-weight: 600;
     color: $primary;
     font-size: 1.1rem;
-    line-height: 1;
+    line-height: 1.2;
 
     i {
       margin-right: 0.5rem;
-      display: inline-flex;
-      align-items: center;
-      line-height: 1;
+      position: relative;
+      top: 0.125em;
     }
   }
 
@@ -44,18 +43,17 @@
 
     .seminar-speaker {
       display: flex;
-      align-items: center;
+      align-items: baseline;
       margin-bottom: 0.75rem;
       color: $gray-700;
       font-size: 1rem;
-      line-height: 1;
+      line-height: 1.2;
 
       i {
         margin-right: 0.5rem;
         color: $gray-600;
-        display: inline-flex;
-        align-items: center;
-        line-height: 1;
+        position: relative;
+        top: 0.125em;
       }
     }
 
@@ -70,15 +68,14 @@
       .seminar-time,
       .seminar-rsvp {
         display: flex;
-        align-items: center;
-        line-height: 1;
+        align-items: baseline;
+        line-height: 1.2;
 
         i {
           margin-right: 0.5rem;
           color: $gray-500;
-          display: inline-flex;
-          align-items: center;
-          line-height: 1;
+          position: relative;
+          top: 0.125em;
         }
       }
 
