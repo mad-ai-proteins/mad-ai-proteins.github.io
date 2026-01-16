@@ -39,6 +39,12 @@
                         {{ seminar.time | markdownify }}
                       </span>
                     {% endif %}
+                    {% if seminar.rsvp_link %}
+                      <span class="seminar-rsvp">
+                        <i class="fas fa-calendar-check"></i>
+                        <a href="{{ seminar.rsvp_link }}" target="_blank" rel="noopener noreferrer">RSVP</a>
+                      </span>
+                    {% endif %}
                   </div>
                 </div>
               </div>
@@ -86,6 +92,12 @@
                       <span class="seminar-time">
                         <i class="fas fa-clock"></i>
                         {{ seminar.time | markdownify }}
+                      </span>
+                    {% endif %}
+                    {% if seminar.rsvp_link %}
+                      <span class="seminar-rsvp">
+                        <i class="fas fa-calendar-check"></i>
+                        <a href="{{ seminar.rsvp_link }}" target="_blank" rel="noopener noreferrer">RSVP</a>
                       </span>
                     {% endif %}
                   </div>
