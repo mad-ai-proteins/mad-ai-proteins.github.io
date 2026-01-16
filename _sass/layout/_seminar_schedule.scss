@@ -63,10 +63,14 @@
       .seminar-rsvp {
         display: flex;
         align-items: center;
+        line-height: 1;
 
         i {
           margin-right: 0.5rem;
           color: $gray-500;
+          line-height: 1;
+          display: inline-flex;
+          align-items: center;
         }
       }
 
