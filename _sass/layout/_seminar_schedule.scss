@@ -24,9 +24,13 @@
     font-weight: 600;
     color: $primary;
     font-size: 1.1rem;
+    line-height: 1;
 
     i {
       margin-right: 0.5rem;
+      display: inline-flex;
+      align-items: center;
+      line-height: 1;
     }
   }
 
@@ -44,10 +48,14 @@
       margin-bottom: 0.75rem;
       color: $gray-700;
       font-size: 1rem;
+      line-height: 1;
 
       i {
         margin-right: 0.5rem;
         color: $gray-600;
+        display: inline-flex;
+        align-items: center;
+        line-height: 1;
       }
     }
 
@@ -68,9 +76,9 @@
         i {
           margin-right: 0.5rem;
           color: $gray-500;
-          line-height: 1;
           display: inline-flex;
           align-items: center;
+          line-height: 1;
         }
       }
 
@@ -108,4 +116,3 @@
     }
   }
 }
-
