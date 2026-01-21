@@ -71,7 +71,7 @@ en: &DEFAULT_EN
 
       - date: "March 2, 2026"
         speaker: "Anthony Gitter"
-        title: "TBA"
+        title: "Biophysics-based protein language models"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
