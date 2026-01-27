@@ -81,6 +81,12 @@ en: &DEFAULT_EN
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
+      - date: "April 16, 2026"
+        speaker: "Rohith Krishna"
+        title: "TBA, special external speaker"
+        location: "TBA"
+        time: "TBA"
+
       - date: "May 4, 2026"
         speaker: "Irene Ong"
         title: "TBA"
