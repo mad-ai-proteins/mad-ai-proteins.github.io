@@ -74,6 +74,7 @@ en: &DEFAULT_EN
         title: "Biophysics-based protein language models"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
+        rsvp_link: https://docs.google.com/forms/d/e/1FAIpQLScJoThC4B34CcVnhsO55JFMXbrOJl7JCZsTJm0ZTRQHlQ_4Xg/viewform?usp=dialog
 
       - date: "April 6, 2026"
         speaker: "TBA"
