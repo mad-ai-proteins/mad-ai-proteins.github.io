@@ -77,8 +77,8 @@ en: &DEFAULT_EN
         rsvp_link: https://docs.google.com/forms/d/e/1FAIpQLScJoThC4B34CcVnhsO55JFMXbrOJl7JCZsTJm0ZTRQHlQ_4Xg/viewform?usp=dialog
 
       - date: "April 6, 2026"
-        speaker: "TBA"
-        title: "TBA"
+        speaker: "Dhananjay Bhaskar"
+        title: "Learnable geometric scattering for drug design and protein conformational dynamics"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
