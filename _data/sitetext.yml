@@ -89,6 +89,12 @@ en: &DEFAULT_EN
         location: "Khorana Auditorium (Room 175), Hector F. DeLuca Biochemistry Laboratories"
         time: "2-3 pm"
 
+      - date: "April 30, 2026"
+        speaker: "Gina El Nesr"
+        title: "TBA"
+        location: "Khorana Auditorium (Room 175), Hector F. DeLuca Biochemistry Laboratories"
+        time: "2-3 pm"
+
       - date: "May 4, 2026"
         speaker: "Irene Ong"
         title: "TBA"
