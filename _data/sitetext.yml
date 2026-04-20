@@ -97,7 +97,7 @@ en: &DEFAULT_EN
 
       - date: "May 4, 2026"
         speaker: "Irene Ong"
-        title: "TBA"
+        title: "TCR-ECHO: evolutionary cross-attention with physicochemical bias for hierarchical TCR-peptide binding prediction"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
         
