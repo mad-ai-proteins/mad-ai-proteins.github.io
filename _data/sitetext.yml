@@ -91,7 +91,7 @@ en: &DEFAULT_EN
 
       - date: "April 30, 2026"
         speaker: "Gina El Nesr"
-        title: "TBA"
+        title: "Towards the zero-shot design of de novo enzymes"
         location: "Khorana Auditorium (Room 175), Hector F. DeLuca Biochemistry Laboratories"
         time: "2-3 pm"
 
