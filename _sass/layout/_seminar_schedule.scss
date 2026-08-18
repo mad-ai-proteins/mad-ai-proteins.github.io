@@ -112,4 +112,68 @@
       flex: 1;
     }
   }
+
+// Past events: section heading and collapsible per-semester toggles
+.past-events-heading {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: $gray-700;
+  text-align: center;
+}
+
+.seminar-past-group {
+  margin-bottom: 0.5rem;
+
+  .semester-toggle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: $gray-100;
+    border: 0;
+    border-left: 4px solid $gray-400;
+    border-radius: 4px;
+    color: $gray-700;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+
+    &:hover,
+    &:focus {
+      background-color: $gray-200;
+      border-left-color: $primary;
+      color: $gray-900;
+      text-decoration: none;
+    }
+
+    .semester-toggle-icon {
+      margin-right: 0.75rem;
+      font-size: 0.9rem;
+      color: $gray-600;
+      transition: transform 0.3s ease;
+      transform: rotate(90deg);
+    }
+
+    &.collapsed .semester-toggle-icon {
+      transform: rotate(0deg);
+    }
+
+    .semester-count {
+      margin-left: 0.5rem;
+      font-weight: 400;
+      color: $gray-600;
+    }
+  }
+
+  // The item list already carries a 3rem top margin for the upcoming
+  // section; tighten it when nested under a semester toggle.
+  .collapse .seminar-schedule,
+  .collapsing .seminar-schedule {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
 }
