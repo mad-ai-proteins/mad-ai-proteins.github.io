@@ -73,6 +73,13 @@ en: &DEFAULT_EN
     # TODO: consider migrating to a _seminars collection (one file per
     # talk with YAML front matter).
     seminars:
+      - date: "2026-05-04"
+        semester: "Spring 2026"
+        speaker: "Irene Ong"
+        title: "TCR-ECHO: evolutionary cross-attention with physicochemical bias for hierarchical TCR-peptide binding prediction"
+        location: "Room 1109, McArdle Building"
+        time: "12-1 pm"
+        
       - date: "2026-02-09"
         semester: "Spring 2026"
         speaker: "Hannah Wayment-Steele"
@@ -81,7 +88,7 @@ en: &DEFAULT_EN
         time: "12-1 pm"
         rsvp_link: https://docs.google.com/forms/d/e/1FAIpQLScm106FxhRBLQINOTchriKyCZMxCB4XmSZkdGe5Fto8mdWRIg/viewform?usp=dialog
 
-      - date: "2026-03-02"
+      - date: "2026-10-02"
         semester: "Spring 2026"
         speaker: "Anthony Gitter"
         title: "Biophysics-based protein language models"
@@ -111,13 +118,7 @@ en: &DEFAULT_EN
         location: "Khorana Auditorium (Room 175), Hector F. DeLuca Biochemistry Laboratories"
         time: "2-3 pm"
 
-      - date: "2026-05-04"
-        semester: "Spring 2026"
-        speaker: "Irene Ong"
-        title: "TCR-ECHO: evolutionary cross-attention with physicochemical bias for hierarchical TCR-peptide binding prediction"
-        location: "Room 1109, McArdle Building"
-        time: "12-1 pm"
-        
+
       - date: "2026-09-15"
         semester: "Fall 2026"
         speaker: "TBD"
