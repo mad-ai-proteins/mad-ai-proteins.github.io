@@ -25,6 +25,7 @@ author     : Madison AI for Proteins
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
+timezone: America/Chicago
 
 analytics:
   google: #Google Analytics tracking code here
