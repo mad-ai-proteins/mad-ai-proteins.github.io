@@ -10,7 +10,7 @@
           {% endif %}
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col-lg-12">
           <div class="seminar-schedule">
@@ -18,7 +18,7 @@
               <div class="seminar-item">
                 <div class="seminar-date">
                   <i class="fas fa-calendar-alt"></i>
-                  <span>{{ seminar.date | markdownify }}</span>
+                  <span>{{ seminar.date | date: "%B %-d, %Y" }}</span>
                 </div>
                 <div class="seminar-content">
                   <h4 class="seminar-title">{{ seminar.title | markdownify }}</h4>
@@ -65,7 +65,7 @@
           {% endif %}
         </div>
       </div>
-      
+
       <div class="row">
         <div class="col-lg-12">
           <div class="seminar-schedule">
@@ -73,7 +73,7 @@
               <div class="seminar-item">
                 <div class="seminar-date">
                   <i class="fas fa-calendar-alt"></i>
-                  <span>{{ seminar.date | markdownify }}</span>
+                  <span>{{ seminar.date | date: "%B %-d, %Y" }}</span>
                 </div>
                 <div class="seminar-content">
                   <h4 class="seminar-title">{{ seminar.title | markdownify }}</h4>
