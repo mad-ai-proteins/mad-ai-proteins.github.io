@@ -13,43 +13,38 @@
 
       <div class="row">
         <div class="col-lg-12">
+          {% assign today = site.time | date: "%Y-%m-%d" %}
+          {% assign sorted = site.data.sitetext[site.locale].seminar_schedule.seminars | sort: "date" %}
+          {% assign upcoming = sorted | where_exp: "s", "s.date >= today" %}
+          {% assign past = sorted | where_exp: "s", "s.date < today" | reverse %}
           <div class="seminar-schedule">
-            {% for seminar in site.data.sitetext[site.locale].seminar_schedule.seminars %}
-              <div class="seminar-item">
-                <div class="seminar-date">
-                  <i class="fas fa-calendar-alt"></i>
-                  <span>{{ seminar.date | date: "%B %-d, %Y" }}</span>
-                </div>
-                <div class="seminar-content">
-                  <h4 class="seminar-title">{{ seminar.title | markdownify }}</h4>
-                  <div class="seminar-speaker">
-                    <i class="fas fa-user"></i>
-                    <span>{{ seminar.speaker | markdownify }}</span>
-                  </div>
-                  <div class="seminar-details">
-                    {% if seminar.location %}
-                      <span class="seminar-location">
-                        <i class="fas fa-map-marker-alt"></i>
-                        {{ seminar.location | markdownify }}
-                      </span>
-                    {% endif %}
-                    {% if seminar.time %}
-                      <span class="seminar-time">
-                        <i class="fas fa-clock"></i>
-                        {{ seminar.time | markdownify }}
-                      </span>
-                    {% endif %}
-                    {% if seminar.rsvp_link %}
-                      <span class="seminar-rsvp">
-                        <i class="fas fa-calendar-check"></i>
-                        <p><a href="{{ seminar.rsvp_link }}" target="_blank" rel="noopener noreferrer">RSVP (for lunch)</a></p>
-                      </span>
-                    {% endif %}
+            {% for seminar in upcoming %}
+              {% include seminar_item.html seminar=seminar show_rsvp=true %}
+            {% else %}
+              <p class="text-muted">No upcoming seminars are scheduled. Check back soon.</p>
+            {% endfor %}
+          </div>
+          {% if past.size > 0 %}
+            <h3 class="past-events-heading">Past Events</h3>
+            {% assign past_semesters = past | group_by: "semester" %}
+            {% for semester in past_semesters %}
+              {% assign panel_id = "past-semester-" | append: forloop.index %}
+              <div class="seminar-past-group">
+                <button class="btn btn-link semester-toggle collapsed" type="button" data-toggle="collapse" data-target="#{{ panel_id }}" aria-expanded="false" aria-controls="{{ panel_id }}">
+                  <i class="fas fa-chevron-right semester-toggle-icon"></i>
+                  {{ semester.name | default: "Earlier" }}
+                  <span class="semester-count">({{ semester.items.size }})</span>
+                </button>
+                <div class="collapse" id="{{ panel_id }}">
+                  <div class="seminar-schedule seminar-past">
+                    {% for seminar in semester.items %}
+                      {% include seminar_item.html seminar=seminar show_rsvp=false %}
+                    {% endfor %}
                   </div>
                 </div>
               </div>
             {% endfor %}
-          </div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -68,47 +63,41 @@
 
       <div class="row">
         <div class="col-lg-12">
+          {% assign today = site.time | date: "%Y-%m-%d" %}
+          {% assign sorted = site.data.sitetext.seminar_schedule.seminars | sort: "date" %}
+          {% assign upcoming = sorted | where_exp: "s", "s.date >= today" %}
+          {% assign past = sorted | where_exp: "s", "s.date < today" | reverse %}
           <div class="seminar-schedule">
-            {% for seminar in site.data.sitetext.seminar_schedule.seminars %}
-              <div class="seminar-item">
-                <div class="seminar-date">
-                  <i class="fas fa-calendar-alt"></i>
-                  <span>{{ seminar.date | date: "%B %-d, %Y" }}</span>
-                </div>
-                <div class="seminar-content">
-                  <h4 class="seminar-title">{{ seminar.title | markdownify }}</h4>
-                  <div class="seminar-speaker">
-                    <i class="fas fa-user"></i>
-                    <span>{{ seminar.speaker | markdownify }}</span>
-                  </div>
-                  <div class="seminar-details">
-                    {% if seminar.location %}
-                      <span class="seminar-location">
-                        <i class="fas fa-map-marker-alt"></i>
-                        {{ seminar.location | markdownify }}
-                      </span>
-                    {% endif %}
-                    {% if seminar.time %}
-                      <span class="seminar-time">
-                        <i class="fas fa-clock"></i>
-                        {{ seminar.time | markdownify }}
-                      </span>
-                    {% endif %}
-                    {% if seminar.rsvp_link %}
-                      <span class="seminar-rsvp">
-                        <i class="fas fa-calendar-check"></i>
-                        <a href="{{ seminar.rsvp_link }}" target="_blank" rel="noopener noreferrer">RSVP (for lunch)</a>
-                      </span>
-                    {% endif %}
+            {% for seminar in upcoming %}
+              {% include seminar_item.html seminar=seminar show_rsvp=true %}
+            {% else %}
+              <p class="text-muted">No upcoming seminars are scheduled. Check back soon.</p>
+            {% endfor %}
+          </div>
+          {% if past.size > 0 %}
+            <h3 class="past-events-heading">Past Events</h3>
+            {% assign past_semesters = past | group_by: "semester" %}
+            {% for semester in past_semesters %}
+              {% assign panel_id = "past-semester-nl-" | append: forloop.index %}
+              <div class="seminar-past-group">
+                <button class="btn btn-link semester-toggle collapsed" type="button" data-toggle="collapse" data-target="#{{ panel_id }}" aria-expanded="false" aria-controls="{{ panel_id }}">
+                  <i class="fas fa-chevron-right semester-toggle-icon"></i>
+                  {{ semester.name | default: "Earlier" }}
+                  <span class="semester-count">({{ semester.items.size }})</span>
+                </button>
+                <div class="collapse" id="{{ panel_id }}">
+                  <div class="seminar-schedule seminar-past">
+                    {% for seminar in semester.items %}
+                      {% include seminar_item.html seminar=seminar show_rsvp=false %}
+                    {% endfor %}
                   </div>
                 </div>
               </div>
             {% endfor %}
-          </div>
+          {% endif %}
         </div>
       </div>
     </div>
   </section>
 {% endif %}
 <!-- End Seminar Schedule -->
-

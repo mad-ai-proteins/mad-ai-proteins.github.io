@@ -1,0 +1,44 @@
+<!--
+  Renders a single seminar entry.
+
+  Parameters:
+    seminar   - the seminar hash from sitetext.yml (required)
+    show_rsvp - true to render the RSVP link, false to suppress it.
+                Past talks pass false so their Google Form links are
+                hidden without editing the YAML.
+
+  Used by _includes/seminar_schedule.html.
+-->
+<div class="seminar-item">
+  <div class="seminar-date">
+    <i class="fas fa-calendar-alt"></i>
+    <span>{{ include.seminar.date | date: "%B %-d, %Y" }}</span>
+  </div>
+  <div class="seminar-content">
+    <h4 class="seminar-title">{{ include.seminar.title | default: "TBD" | markdownify }}</h4>
+    <div class="seminar-speaker">
+      <i class="fas fa-user"></i>
+      <span>{{ include.seminar.speaker | default: "TBD" | markdownify }}</span>
+    </div>
+    <div class="seminar-details">
+      {% if include.seminar.location %}
+        <span class="seminar-location">
+          <i class="fas fa-map-marker-alt"></i>
+          {{ include.seminar.location | markdownify }}
+        </span>
+      {% endif %}
+      {% if include.seminar.time %}
+        <span class="seminar-time">
+          <i class="fas fa-clock"></i>
+          {{ include.seminar.time | markdownify }}
+        </span>
+      {% endif %}
+      {% if include.show_rsvp and include.seminar.rsvp_link %}
+        <span class="seminar-rsvp">
+          <i class="fas fa-calendar-check"></i>
+          <p><a href="{{ include.seminar.rsvp_link }}" target="_blank" rel="noopener noreferrer">RSVP (for lunch)</a></p>
+        </span>
+      {% endif %}
+    </div>
+  </div>
+</div>
