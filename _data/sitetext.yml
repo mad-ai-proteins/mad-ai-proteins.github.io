@@ -59,7 +59,7 @@ en: &DEFAULT_EN
 
   seminar_schedule:
     title: "Seminar Schedule"
-    text: "Seminars and events"
+    text: ""
     section: seminar-schedule
     # Dates must be quoted ISO strings ("2026-09-14"), not bare dates.
     # Unquoted values become YAML Date objects, which breaks the string
