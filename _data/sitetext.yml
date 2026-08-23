@@ -125,6 +125,13 @@ en: &DEFAULT_EN
         location: "TBD"
         time: "12-1 pm"
 
+      - date: "2026-11-12"
+        semester: "Fall 2026"
+        speaker: "Gabriel Rocklin"
+        title: "TBD"
+        location: "TBD"
+        time: "TBD"
+
       # Add more seminars here as they are scheduled
       # - date: "2025-01-15"
       #   semester: "Spring 2025"
