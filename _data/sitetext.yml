@@ -122,21 +122,21 @@ en: &DEFAULT_EN
         semester: "Fall 2026"
         speaker: "Quentin Dudley"
         title: "TBD"
-        location: "TBD"
+        location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
       - date: "2026-10-05"
         semester: "Fall 2026"
         speaker: "Xuhui Huang"
         title: "TBD"
-        location: "TBD"
+        location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
       - date: "2026-11-02"
         semester: "Fall 2026"
         speaker: "Katrina Forest"
         title: "TBD"
-        location: "TBD"
+        location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
       - date: "2026-11-12"
@@ -150,7 +150,7 @@ en: &DEFAULT_EN
         semester: "Fall 2026"
         speaker: "TBD"
         title: "TBD"
-        location: "TBD"
+        location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
       # Add more seminars here as they are scheduled
