@@ -124,6 +124,7 @@ en: &DEFAULT_EN
         title: "TBD"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
+        rsvp_link: https://docs.google.com/forms/d/e/1FAIpQLSfU52p1JwvPorAUIMk3azOnH_1xkf8hUD3WPVK17cfyGjrcKA/viewform?usp=header
 
       - date: "2026-10-05"
         semester: "Fall 2026"
