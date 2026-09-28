@@ -129,7 +129,7 @@ en: &DEFAULT_EN
       - date: "2026-10-05"
         semester: "Fall 2026"
         speaker: "Xuhui Huang"
-        title: "TBD"
+        title: "From protein structures to function: Learning conformational changes and kinetics"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
