@@ -132,6 +132,7 @@ en: &DEFAULT_EN
         title: "From protein structures to function: Learning conformational changes and kinetics"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
+        rsvp_link: https://docs.google.com/forms/d/e/1FAIpQLScPYM8-z-lH6stxjnB_6D4Xy3KM_c89jDYSzBplMwL8H7rl4g/viewform?usp=dialog
 
       - date: "2026-11-02"
         semester: "Fall 2026"
