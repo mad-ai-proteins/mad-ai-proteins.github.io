@@ -145,8 +145,8 @@ en: &DEFAULT_EN
         semester: "Fall 2026"
         speaker: "Gabriel Rocklin"
         title: "TBD"
-        location: "TBD"
-        time: "TBD"
+        location: "Khorana Auditorium (Room 175), Hector F. DeLuca Biochemistry Laboratories"
+        time: "3-4 pm"
 
       - date: "2026-12-07"
         semester: "Fall 2026"
