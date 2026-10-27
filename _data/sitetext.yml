@@ -137,7 +137,7 @@ en: &DEFAULT_EN
       - date: "2026-11-02"
         semester: "Fall 2026"
         speaker: "Katrina Forest"
-        title: "TBD"
+        title: "Structural Microbiology Guided by AI, Grounded by Data"
         location: "Room 1109, McArdle Building"
         time: "12-1 pm"
 
