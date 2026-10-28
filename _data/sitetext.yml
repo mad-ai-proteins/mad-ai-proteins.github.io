@@ -144,7 +144,7 @@ en: &DEFAULT_EN
       - date: "2026-11-12"
         semester: "Fall 2026"
         speaker: "Gabriel Rocklin"
-        title: "TBD"
+        title: "A hydrogen atom for computational enzyme design"
         location: "Khorana Auditorium (Room 175), Hector F. DeLuca Biochemistry Laboratories"
         time: "3-4 pm"
 
